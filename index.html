@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Test</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1 class="header__title">Вероника Ростова
+			<p class="header__title-about">Менеджер по продажам</p>
+			</h1>
+			<div class="manager">
+				<img class="header__img" src="img/girl.png" alt="Вероника Ростова">
+				<div class="header__aboutImg">
+					<p class="header__aboutImg-text">Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны</p>
+				</div>
+			</div>
+			
+		</header>
+
+		<section class="srvises">
+			<h2 class="services__title">Услуги</h2>
+			<ul class="services__list">
+				<li class="services__type">
+					<div class="services__type-green"></div>
+					<p class="services__text">Ручное бронирование</p>
+					<span class="services__text-result">11</span>
+				</li>
+				<li class="services__type">
+					<div class="services__type-blue"></div>
+					<p class="services__text">Пакетные туры</p>
+					<span class="services__text-result">3</span>
+				</li>
+				<li class="services__type">
+					<div class="services__type-blue--min"></div>
+					<p class="services__text">Отели</p>
+					<span class="services__text-result">1</span>
+				</li>
+			</ul>
+			<div class="thatsall">Всего <span class="thatsAll-result">15</span></div>
+		</section>
+
+		<section class="reviews">
+			<div class="reviewsall">
+				<div class="leftside">
+					<div class="lastReviews"><a class="active" href="#">Последние отзывы</a></div>
+					<div class="allReviews"><a href="#">Все отзывы</a></div>
+				</div>
+				<div class="rightside">
+					<div class="likes"><a href="#"><img class="likesComments" src="img/like.png" alt="">131</a></div>
+					<div class="comments"><a href="#"><img class="likesComments" src="img/comment.png" alt="">14</a></div>
+			</div>
+		</section>
+
+		<section class="reviewblocks">
+			<div class="commentbox">
+				<div class="name">Самуил</div>
+				<div class="date">13 октября 2011</div>
+				<div class="parent">
+				  <div class="reviewtext">Привет, Верунь! ниче себе ты крутая. фотка класс!!!!</div>
+				  <div class="triangle-out"></div>
+				  <div class="triangle-in"></div>
+				</div>
+			</div>
+
+			<div class="commentbox">
+				<div class="name">Лилия Семёновна</div>
+				<div class="date">14 октября 2011</div>
+				<div class="parent">
+				  	<div class="reviewtext">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</div>
+					<div class="triangle-out"></div>
+					<div class="triangle-in"></div>
+				</div>
+			</div>
+			<div class="commentbox">
+				<div class="name">Лилия Семёновна
+				</div>
+				<div class="date">14 октября 2011
+				</div>
+				<div class="parent">
+				  	<div class="reviewtext">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</div>
+					<div class="triangle-out"></div>
+					<div class="triangle-in"></div>
+				</div>
+			</div>			
+		</section>
+	</div>
+	<footer class="addComment">
+			 <form>
+			    <textarea name="comment" cols="40" rows="3" id="commentText" class="texinput"></textarea>
+			    <button id="add" class="addButton">Написать консультанту</button>
+			 </form>
+	</footer>
+	
+	
+	<script src="main.js"></script>
+</body>
+</html>
