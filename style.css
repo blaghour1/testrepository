@@ -16,17 +16,16 @@ body{
 	display: inline-block;
 	font-size: 16px;
 	margin-top: 0;
-	margin-left: 152px;
+	margin-left: 130px;
 	font-family: Arial;
 	font-weight: bold;
-
 }
 
 .header__title-about{
 	font-family: Arial;
 	margin: 0;
 	font-size: 11px;
-	color: lightgrey;
+	color: #808080;
 	font-weight: 400;
 }
 
@@ -50,27 +49,29 @@ body{
 	padding-top: 10px;
 	padding-bottom: 10px;
   	border-radius: 4px;
-  	border: 1px solid;
+  	border: 1px solid lightgrey;
   	position: relative;
-  	left: 94px;
-  	
+  	left: 90px;
 }
 
 .srvises{
-	margin-top: 65px;
-	margin-left: 148px;
+	margin-top: 13px;
+	margin-left: 128px;
 }
 .services__title{
+	font-family: Arial;
 	font-size: 12px;
 	text-align: right;
 	font-weight: 400;
 	margin-right: 35px;
+	margin-bottom: 10px;
+	margin-top: 15px;
 }
 
 .services__list{
 	list-style-type: none;
 	padding: 12px 0;
-	margin-top: 10px;
+	margin-top: 9px;
 	border-top: 1px solid lightgrey;
 	border-bottom: 1px solid lightgrey;
 }
@@ -89,6 +90,7 @@ body{
 	padding-top: 7px;
 	font-size: 13px;
 	font-weight: bold;
+	padding-right: 45px;
 }
 
 .services__type-green{
@@ -96,6 +98,7 @@ body{
 	width: 220px;
 	height: 25px;
 	border-left: 1px solid;
+	border-radius: 4px;
 	display: inline-block;
 	position: absolute;
 }
@@ -120,7 +123,7 @@ body{
 }
 
 .services__type{
-	margin-bottom: 2px;
+	margin-bottom: 1px;
 	height: 25px;
 }
 .thatsall{
@@ -130,10 +133,11 @@ body{
 
 .thatsAll-result{
 	float: right;
+	padding-right: 45px;
 }
 
 .reviews{
-	margin-top: 30px;
+	margin-top: 29px;
 }
 
 .lastReviews{
@@ -168,10 +172,14 @@ body{
 }
 
 .reviewblocks{
-	margin-top: 20px;
+	margin-top: 15px;
 }
 .commentbox{
-	margin-top: 10px;
+	margin-top: 9px;
+}
+
+.commentbox:first-child{
+	margin-top: 0px
 }
 
 .name {
@@ -189,7 +197,7 @@ body{
 
 .reviewtext {
   background-color: #f2fafd;
-  padding: 20px 85px 15px 23px;
+  padding: 17px 18px 14px 20px;
   margin-top: 15px;
   border: 1px solid grey;
   font-size: 14px;
@@ -214,7 +222,7 @@ body{
   background: grey;
   position: absolute;
   top: -10px;
-  left: -10px;
+  left: -6px;
 }
 
 .triangle-out:after {
@@ -225,14 +233,14 @@ body{
   background: grey;
   position: absolute;
   top: -14px;
-  left: 1px;
+  left: 5px;
   transform: rotateZ(-45deg);
 }
 
 .triangle-in {
   position: absolute;
   top: -14px;
-  left: 16px;
+  left: 20px;
   border: 10px solid transparent;
   border-left: 10px solid #f2fafd;
   border-bottom: 10px solid #f2fafd;
@@ -248,16 +256,14 @@ body{
 	margin-top: 20px;
 	padding-top: 30px;
 	padding-bottom: 35px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .texinput{
 	display: block;
-	margin: 0 auto;
 	height: 65px;
 	width: 100%;
-	resize: none;
 }
 
 .addButton{
@@ -272,6 +278,14 @@ body{
     .header__aboutImg {
         width: 278px;
     }
+
+    .services__type-green{
+    	width: 150px;
+    }
+
+    .services__list{
+    	margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -282,7 +296,7 @@ body{
     	font-size: 12px;
     }
     .services__type-green{
-    	width: 150px;
+    	width: 130px;
     }
 }
 @media screen and (max-width: 390px) {
@@ -291,6 +305,18 @@ body{
     }
     .header__aboutImg-text{
     	font-size: 10px;
+    }
+
+    .services__text{
+    	font-size: 12px;
+    }
+
+    .services__type-green{
+    	width: 120px;
+    }
+
+    .services__text-result{
+    	padding-right: 20px;
     }
 }
 
@@ -321,10 +347,14 @@ body{
     	font-size: 9px;
     }
     .services__type-green{
-    	width: 115px;
+    	width: 70px;
     }
     .services__text{
     	font-size: 10px;
     	top: -3px;
+    }
+
+    .srvises{
+    	margin-left: 100px;
     }
 }
